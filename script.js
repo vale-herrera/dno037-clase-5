@@ -68,7 +68,7 @@ Papa.parse("https://raw.githubusercontent.com/vale-herrera/dno037-clase-5/main/i
                                     ticks: {
                                         beginAtZero: true,
                                         fontColor: "rgba(74, 11, 146, 0.75)",
-                                        fontFamily:'sans-serif',
+                                        fontFamily:'Josefin Sans',
                                         fontSize: 13,
                                     },
                                 },
@@ -77,7 +77,7 @@ Papa.parse("https://raw.githubusercontent.com/vale-herrera/dno037-clase-5/main/i
                                 {
                                     ticks: {
                                         fontColor: "rgba(74, 11, 146, 0.75)",
-                                        fontFamily:'sans-serif',
+                                        fontFamily:'Josefin Sans',
                                         fontSize: 13,
                                     },
                                 },

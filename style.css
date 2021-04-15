@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 html{
-        background: linear-gradient(135deg, rgba(237, 255, 226, .9), rgba(224, 255, 236, .9)), url('images/camion.jpg') right bottom no-repeat fixed;
+        background: linear-gradient(135deg, rgba(237, 255, 226, .9), rgba(224, 255, 236, .9)), url('monedacobre.png') right bottom no-repeat fixed;
         min-height: 100%;
 }
 

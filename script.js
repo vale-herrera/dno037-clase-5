@@ -4,6 +4,7 @@ Fuente: https://datos.gob.cl/dataset/indice-de-intesidad-de-uso-del-cobre-por-pa
 Preferí "limpiar" los datos antes de utilizarlos. La versión "limpia" la dejé en GitHub
 */
 Papa.parse("https://raw.githubusercontent.com/vale-herrera/dno037-clase-5/main/indice-uso-cobre.csv", {
+
     download: true,
     header: true,
     dynamicTyping: true,
@@ -13,7 +14,7 @@ Papa.parse("https://raw.githubusercontent.com/vale-herrera/dno037-clase-5/main/i
         // necesitamos solo una parte de toda la respuesta
         var datos = respuesta.data;
         // para eliminar una fila de sobra al final, borrar el doble slash en la siguiente línea
-        // datos.pop();
+        datos.pop();
 
         if (document.body.classList.contains("portada")) {
             datos.forEach(function (dato, i) {
@@ -83,7 +84,7 @@ Papa.parse("https://raw.githubusercontent.com/vale-herrera/dno037-clase-5/main/i
                             ],
                         },
                     },
-                }); // cierra new Chart
+                }); 
             } else {
                 document.querySelector("main").innerHTML = "<article>Algo salió mal &#128557;</article>";
             } // cierra else

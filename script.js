@@ -45,8 +45,8 @@ Papa.parse("https://raw.githubusercontent.com/vale-herrera/dno037-clase-5/main/i
                         datasets: [
                             {
                                 data: indice,
-                                backgroundColor: "rgba(0, 0, 0, .1)",
-                                borderColor: "rgba(0, 0, 0, .5)",
+                                backgroundColor: "rgba(157, 255, 45, .25)",
+                                borderColor: "rgba(74, 11, 146, .8)",
                                 pointRadius: 4,
                                 borderWidth: 3,
                                 lineTension: 0,
@@ -66,18 +66,18 @@ Papa.parse("https://raw.githubusercontent.com/vale-herrera/dno037-clase-5/main/i
                                 {
                                     ticks: {
                                         beginAtZero: true,
-                                        fontColor: "rgba(0, 0, 0, 0.75)",
+                                        fontColor: "rgba(74, 11, 146, 0.75)",
                                         fontFamily:'sans-serif',
-                                        fontSize: 12,
+                                        fontSize: 13,
                                     },
                                 },
                             ],
                             xAxes: [
                                 {
                                     ticks: {
-                                        fontColor: "rgba(0, 0, 0, 0.75)",
+                                        fontColor: "rgba(74, 11, 146, 0.75)",
                                         fontFamily:'sans-serif',
-                                        fontSize: 12,
+                                        fontSize: 13,
                                     },
                                 },
                             ],

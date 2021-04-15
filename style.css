@@ -3,18 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 html{
-        background: linear-gradient(135deg, rgba(240, 170, 140, .9), rgba(150, 100, 75, .9)), url('images/camion.jpg') right bottom no-repeat fixed;
+        background: linear-gradient(135deg, rgba(237, 255, 226, .9), rgba(224, 255, 236, .9)), url('images/camion.jpg') right bottom no-repeat fixed;
         min-height: 100%;
 }
 
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 120%;
+    color: #4A0B92;
     margin: 0;
     padding: 0;
 }
 
-a{color:black;}
+a{color: #4A0B92;;}
 
 div.container {
     width: 80%;
